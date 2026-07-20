@@ -6,7 +6,13 @@ import Player from "../entities/Player.js";
         super("TownScene");
     }
 
-    create() {
+    create(this.player = new Player(this, 360, 640);
+
+this.input.on("pointerdown", (pointer) => {
+
+    this.player.moveTo(pointer.worldX, pointer.worldY);
+
+});) {
 
         this.cameras.main.setBackgroundColor("#7ccf65");
 
