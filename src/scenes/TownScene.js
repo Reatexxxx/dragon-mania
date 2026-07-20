@@ -1,5 +1,7 @@
 export default class TownScene extends Phaser.Scene {
 
+import Player from "../entities/Player.js";
+
     constructor() {
         super("TownScene");
     }
